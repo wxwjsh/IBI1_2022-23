@@ -1,0 +1,21 @@
+I like to drink tea
+I like chocolate biscuits
+I like snow
+I like running
+I like writing
+I like swimming
+I like shopping
+I like toy
+I like dod
+I like mom
+I like cat
+I like pig
+<<<<<<< HEAD
+I like benana
+I like milk
+=======
+I like you
+I like you too
+I like my father
+I don't like you
+>>>>>>> Alex
