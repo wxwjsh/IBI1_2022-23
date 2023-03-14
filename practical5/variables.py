@@ -8,4 +8,8 @@ if d>=e:
  print("Los Angeles")
 else:
  print("Haining")
-
+X=True
+Y=False
+W=X and Y
+Z=X or Y
+print(W,Z)
