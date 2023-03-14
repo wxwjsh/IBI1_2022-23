@@ -1,5 +1,6 @@
 # What does this piece of code do?
-# Answer:
+# Answer:The largest random integer within 10 times (hte next higher 
+#integer if it is a decimal) is named stored_random_number
 
 # Import libraries
 # randint allows drawing a random number,
