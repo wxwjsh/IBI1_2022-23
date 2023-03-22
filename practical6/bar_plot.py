@@ -1,4 +1,8 @@
-
+#The number of input samples is N
+#Enter the number of each sample as the height of the bar chart
+#Enter the width of the bar chart
+#Import the statistical chart title, x axis and y axis
+#Set the Y-axis to 0-40
 
 import numpy as np
 import matplotlib. pyplot as plt
