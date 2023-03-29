@@ -31,3 +31,10 @@ world_new_cases=df.groupby.iloc[:,1]
 world_dates=df.groupby.iloc[:,0]
 plt.plot(world_dates, world_new_cases, 'bo')
 plt.show()
+my_columns=[True,False,False,True,False,False]
+df1=covid_data.iloc[:,my_columns]
+df.groupby1=df1.groupby("date", as_index=False).sum(numeric_only=True)
+world_new_deaths=df.groupby1.iloc[:,1]
+world_dates1=df.groupby1.iloc[:,0]
+plt.plot(world_dates1, world_new_deaths, 'bo')
+plt.show()
