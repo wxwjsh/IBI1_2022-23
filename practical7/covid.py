@@ -17,10 +17,17 @@ proportion1=proportion.loc['mean',my_colomn]
 proportion1['percent1']=proportion1['new_deaths']/proportion1['new_cases']
 print(proportion1)
 my_columns=[False,True,False]
-world_dates=new_data.iloc[:,my_columns]
-world_dates.plot.box()
+world_dates2=new_data.iloc[:,my_columns]
+world_dates2.plot.box()
 plt.show()
 my_columns=[False,False,True]
 world_dates1=new_data.iloc[:,my_columns]
 world_dates1.plot.box()
+plt.show()
+my_columns=[True,False,True,False,False,False]
+df=covid_data.iloc[:,my_columns]
+df.groupby=df.groupby("date", as_index=False).sum(numeric_only=True)
+world_new_cases=df.groupby.iloc[:,1]
+world_dates=df.groupby.iloc[:,0]
+plt.plot(world_dates, world_new_cases, 'bo')
 plt.show()
