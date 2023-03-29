@@ -1,0 +1,2 @@
+#How has Austria's total caseload evolved over time? Make a graph
+#The total number of cases in Austria has been consistently increasing, with a surge in the rate of increase from 2020-3-11 onwards, with sudden changes
