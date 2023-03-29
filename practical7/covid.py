@@ -11,4 +11,16 @@ print(covid_data.loc[covid_data["location"]=="Afghanistan","total_cases"])
 my_columns = [False, True, True, True, False, False]
 new_data=covid_data.loc[covid_data["date"]=="2020-03-31",my_columns]
 print(new_data.describe())
-
+proportion=new_data.describe()
+my_colomn=[True,True]
+proportion1=proportion.loc['mean',my_colomn]
+proportion1['percent1']=proportion1['new_deaths']/proportion1['new_cases']
+print(proportion1)
+my_columns=[False,True,False]
+world_dates=new_data.iloc[:,my_columns]
+world_dates.plot.box()
+plt.show()
+my_columns=[False,False,True]
+world_dates1=new_data.iloc[:,my_columns]
+world_dates1.plot.box()
+plt.show()
