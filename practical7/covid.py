@@ -32,9 +32,16 @@ world_dates=df.groupby.iloc[:,0]
 plt.plot(world_dates, world_new_cases, 'bo')
 plt.show()
 my_columns=[True,False,False,True,False,False]
-df1=covid_data.iloc[:,my_columns]
-df.groupby1=df1.groupby("date", as_index=False).sum(numeric_only=True)
-world_new_deaths=df.groupby1.iloc[:,1]
-world_dates1=df.groupby1.iloc[:,0]
-plt.plot(world_dates1, world_new_deaths, 'bo')
+df=covid_data.iloc[:,my_columns]
+df.groupby=df.groupby("date", as_index=False).sum(numeric_only=True)
+world_new_deaths=df.groupby.iloc[:,1]
+world_dates=df.groupby.iloc[:,0]
+plt.plot(world_dates, world_new_deaths, 'bo')
+plt.show()
+
+my_colomn=[True,False,False,False,True,False]
+Austria_data=covid_data.loc[covid_data["location"]=="Austria",my_colomn]
+Austria_time=Austria_data.iloc[:,0]
+Austria_total_cases=Austria_data.iloc[:,1]
+plt.plot(Austria_time, Austria_total_cases, 'bo')
 plt.show()
