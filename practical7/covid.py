@@ -29,6 +29,7 @@ new_data=covid_data.loc[covid_data["date"]=="2020-03-31",my_columns]
 print(new_data.describe())
 proportion=new_data.describe()
 my_colomn=[True,True]
+#The code comes from the Internet
 proportion1=proportion.loc['mean',my_colomn]
 proportion1['percent1']=proportion1['new_deaths']/proportion1['new_cases']
 print(proportion1)
