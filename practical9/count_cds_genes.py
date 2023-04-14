@@ -27,5 +27,4 @@ with dna as ip, data as op:
                 #Calculate the number of stop_codons ending in stop_codon
                 count=len(re.findall(stop_codon,finall_dna))
                 #Output documents
-                op.write('{}   
-{}\n{}\n\n'.format(finall_dna_name,count,finall_dna))
+                op.write('{}   {}\n{}\n\n'.format(finall_dna_name,count,finall_dna))
