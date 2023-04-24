@@ -1,6 +1,6 @@
 import re
 import os
-os.chdir("/Users/jishuhan/.git/IBI1_2022-23/IBI1_2022-23/IBI1_2022-23/practical9")
+os.chdir("/Users/jishuhan/.git/IBI1_2022-23/IBI1_2022-23/practical9")
 #Open a known file and create a results file
 dna=open("Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa",'r')
 stop=open('TGA_genes.fa','w')
