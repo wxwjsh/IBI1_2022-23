@@ -1,0 +1,21 @@
+Compare: HUMAN&MOUSE
+Alignment Score: 3579
+Identical Percentage: 82.11180124223603
+
+Compare: HUMAN&CAT
+Alignment Score: 3717
+Identical Percentage:85.21739130434783
+
+Compare: MOUSE&CAT
+Alignment Score: 3592
+Identical Percentage: 81.73913043478261
+
+The results showed that humans were most closely related to cats, followed 
+by humans and mice, and cats and mice were least closely related.
+Biologically, this suggests that HUMAN and CAT share a more recent common 
+ancestor than either species shares with MOUSE. This may indirectly prove 
+that all life on Earth began as a single cell in ancient times and evolved 
+over a long period of time to create a diversity of species. This is 
+because, genetically speaking, all species on Earth are related to each 
+other, only in a distant way.
+
